@@ -1,0 +1,45 @@
+# Project-wide .gitignore
+
+# Backend
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+backend/.env
+backend/.pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/.venv/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.env
+frontend/dist/**/*.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Misc
+.cache
+.tmp
